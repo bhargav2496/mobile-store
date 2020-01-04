@@ -7,8 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar.js';
 import ProductList from './components/ProductList.js';
 import Details from './components/Details.js';
-import Cart from './components/Cart.js';
-import Default from './components/Default.js'
+import Cart from './components/Cart';
+import Default from './components/Default.js';
+import Modal from './components/Modal.js';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
        <Route path="/cart" component={Cart}/>
        <Route component={Default}/>
      </Switch>
+     <Modal/>
     </React.Fragment>
   );
 }
