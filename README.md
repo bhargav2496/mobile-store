@@ -2,7 +2,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+To run the project first clone the project to your system using [link](https://github.com/bhargav2496/mobile-store.git)
+
+In your terminal run the command
+
+### `npm install`
+
+the above command installs all the nodemodules and dependencies
+
+Now start the server using the below command
 
 ### `npm start`
 
